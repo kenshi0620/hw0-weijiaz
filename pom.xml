@@ -2,54 +2,5 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>edu.cmu.lti.11791.f12.hw0</groupId>
   <artifactId>hw0-weijiaz</artifactId>
-  <version>0.0.1</version>
-  
-  <scm>
-  	<connection>scm:git:git@github.com:kenshi0620/hw0-weijiaz.git</connection>
-  	<developerConnection>scm:git:git@github.com:kenshi0620/hw0-weijiaz.git</developerConnection>
-  </scm>
-<repositories><repository>
-    <id>deployment</id>
-    <url>http://mu.lti.cs.cmu.edu:8081/nexus/content/groups/course</url>
-    </repository></repositories>
-  <distributionManagement>
-    <repository>
-      <id>deployment</id>
-      <url>http://mu.lti.cs.cmu.edu:8081/nexus/content/repositories/
-          course-releases</url>
-    </repository>
-    <snapshotRepository>
-      <id>snapshots</id>
-      <url>http://mu.lti.cs.cmu.edu:8081/nexus/content/repositories/
-          course-snapshots</url>
-    </snapshotRepository>
-  </distributionManagement>
-  <build><plugins>
-    <plugin>
-      <groupId>org.apache.maven.plugins</groupId>
-      <artifactId>maven-compiler-plugin</artifactId>
-      <configuration>
-        <source>1.6</source><target>1.6</target>
-      </configuration>
-    </plugin>
-    <plugin>
-      <groupId>org.apache.maven.plugins</groupId>
-      <artifactId>maven-release-plugin</artifactId>
-      <version>2.2.1</version>
-      <executions><execution>
-        <id>default</id>
-        <goals><goal>perform</goal></goals>
-        <configuration>
-          <pomFileName>hw0-weijiaz/pom.xml</pomFileName>
-        </configuration>
-      </execution></executions>
-    </plugin>
-  </plugins></build>
-  <dependencies>
-  	<dependency>
-  		<groupId>edu.stanford.nlp</groupId>
-  		<artifactId>stanford-corenlp</artifactId>
-  		<version>1.3.3</version>
-  	</dependency>
-  </dependencies>
+  <version>0.0.1-SNAPSHOT</version>
 </project>
