@@ -4,8 +4,8 @@
 	<artifactId>hw0-weijiaz</artifactId>
 	<version>0.0.2</version>
 	<scm>
-		<connection>scm:git:git@github.com/kenshi0620/hw0-weijiaz.git</connection>
-		<developerConnection>scm:git:git@github.com/kenshi0620/hw0-weijiaz.git</developerConnection>
+		<connection>scm:git:git@github.com:kenshi0620/hw0-weijiaz.git</connection>
+		<developerConnection>scm:git:git@github.com:kenshi0620/hw0-weijiaz.git</developerConnection>
 	</scm>
 	<repositories>
 		<repository>
